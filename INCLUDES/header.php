@@ -8,8 +8,13 @@
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="views/css/index.css">
     <link rel="stylesheet" href="INCLUDES/COMPONENTS/ASIDE/CSS/aside.css">
-    <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/div.a.header.css">
+
+    <!--* Página inicial -->
     <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/CSS/pg.inicial.css">
+    <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/div.a.header.css">
+    <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/div.searchBar.css">
+
+
     <title>Clients</title>
 </head>
 <body>

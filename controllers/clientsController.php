@@ -22,6 +22,8 @@
 
         public function goToNew(){
             require_once "./views/editCreate.php";
+            // echo '<script>console.log("'.$require_once.'")</script>';
+
         }
 
         public function new($data){

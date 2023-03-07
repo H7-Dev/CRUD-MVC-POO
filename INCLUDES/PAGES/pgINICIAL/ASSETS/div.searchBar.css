@@ -1,0 +1,500 @@
+div.searchBar {
+  background-color: #f4f4f4;
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  align-items: center;
+}
+div.searchBar > span.titulo {
+  color: crimson;
+  font-size: 0.82rem;
+  font-family: "OpenSansRegular", "OpenSansSemiBold", "Segoe UI", sans-serif;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+div.searchBar > button.btnAddBar,
+div.searchBar > button.btnEdtBar {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 4px 7px;
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  align-items: center;
+  outline: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  white-space: nowrap;
+  align-self: center;
+  background-color: #fafafa;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+}
+div.searchBar > button.btnAddBar:hover,
+div.searchBar > button.btnEdtBar:hover {
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > button.btnAddBar:active,
+div.searchBar > button.btnEdtBar:active {
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > button.btnAddBar:focus,
+div.searchBar > button.btnEdtBar:focus {
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > button.btnAddBar > svg,
+div.searchBar > button.btnEdtBar > svg {
+  height: 14pt;
+  fill: crimson;
+  fill: #003c8c;
+}
+div.searchBar > nav {
+  display: grid;
+  gap: 14px;
+  grid-auto-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: end;
+}
+div.searchBar > nav > label.in_serch {
+  padding: 4px 6px;
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: auto 1fr auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+div.searchBar > nav > label.in_serch:hover {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_serch:active {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_serch:focus {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_serch:focus-within {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_serch > button {
+  color: tomato;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+div.searchBar > nav > label.in_serch > button > svg {
+  fill: #003c8c;
+  height: 12pt;
+}
+div.searchBar > nav > label.in_serch > input {
+  font-size: 0.8rem;
+  font-family: "OpenSansSemiBold", "Segoe UI", sans-serif;
+  color: #003c8c;
+  background-color: transparent;
+  padding: 0.2rem 0.1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+div.searchBar > nav > label.in_serch > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 0.8rem;
+  font-family: "Open Sans Regular", "Segoe UI", sans-serif;
+  color: #b9babe;
+  color: #003c8c;
+  opacity: 1;
+  /* Firefox */
+}
+div.searchBar > nav > label.in_marcador,
+div.searchBar > nav .in_assoc,
+div.searchBar > nav .in_temas {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 4px 6px;
+  height: fit-content;
+  min-width: 150px;
+  max-width: 150px;
+  display: grid;
+  gap: 4px;
+  grid-auto-flow: row;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+div.searchBar > nav > label.in_marcador:hover,
+div.searchBar > nav .in_assoc:hover,
+div.searchBar > nav .in_temas:hover {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_marcador:active,
+div.searchBar > nav .in_assoc:active,
+div.searchBar > nav .in_temas:active {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_marcador:focus,
+div.searchBar > nav .in_assoc:focus,
+div.searchBar > nav .in_temas:focus {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_marcador:focus-within,
+div.searchBar > nav .in_assoc:focus-within,
+div.searchBar > nav .in_temas:focus-within {
+  background-color: #F0F0F0;
+}
+div.searchBar > nav > label.in_marcador > span,
+div.searchBar > nav .in_assoc > span,
+div.searchBar > nav .in_temas > span {
+  width: 100%;
+  color: #003c8c;
+  font-size: 0.95rem;
+  font-family: OpenSansRegular, "Segoe UI", sans-serif;
+}
+div.searchBar > nav > label.in_marcador > input,
+div.searchBar > nav .in_assoc > input,
+div.searchBar > nav .in_temas > input {
+  font-size: 0.8rem;
+  font-family: "OpenSansSemiBold", "Segoe UI", sans-serif;
+  color: #707277;
+  background-color: transparent;
+  padding: 0.2rem 0.1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+div.searchBar > nav > label.in_marcador > input::placeholder,
+div.searchBar > nav .in_assoc > input::placeholder,
+div.searchBar > nav .in_temas > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 0.8rem;
+  font-family: "Open Sans Regular", "Segoe UI", sans-serif;
+  color: #b9babe;
+  color: #003c8c;
+  opacity: 1;
+  /* Firefox */
+}
+div.searchBar > nav > label.in_marcador > textarea,
+div.searchBar > nav .in_assoc > textarea,
+div.searchBar > nav .in_temas > textarea {
+  font-size: 0.95rem;
+  font-family: OpenSansRegular, "Segoe UI", sans-serif;
+  color: #707277;
+  background-color: #f5f6fa;
+  background-color: rgba(0, 0, 0, 0);
+  /* mobile */
+  padding: 0.2rem 0.1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+div.searchBar > nav > label.in_marcador > textarea::placeholder,
+div.searchBar > nav .in_assoc > textarea::placeholder,
+div.searchBar > nav .in_temas > textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 0.95rem;
+  font-family: OpenSansRegular, "Segoe UI", sans-serif;
+  color: #b9babe;
+  opacity: 1;
+  /* Firefox */
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc,
+div.searchBar > nav .in_assoc > .dropdownSelc,
+div.searchBar > nav .in_temas > .dropdownSelc {
+  background-color: rgba(0, 0, 0, 0);
+  /* mobile */
+  min-width: fit-content;
+  display: grid;
+  gap: 0px 5px;
+  grid-auto-flow: column;
+  grid-auto-columns: 1.5fr auto auto;
+  border-radius: 4px;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > button.btnClean,
+div.searchBar > nav .in_assoc > .dropdownSelc > button.btnClean,
+div.searchBar > nav .in_temas > .dropdownSelc > button.btnClean {
+  display: none;
+  color: #2D4B73;
+  font-size: 0.85rem;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > button,
+div.searchBar > nav .in_assoc > .dropdownSelc > button,
+div.searchBar > nav .in_temas > .dropdownSelc > button {
+  /* width: 12px; */
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 5px;
+  /* height: 100%; */
+  outline: 0;
+  border: 0;
+  transition: 0.5s;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > button:hover,
+div.searchBar > nav .in_assoc > .dropdownSelc > button:hover,
+div.searchBar > nav .in_temas > .dropdownSelc > button:hover {
+  cursor: pointer;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > button > div,
+div.searchBar > nav .in_assoc > .dropdownSelc > button > div,
+div.searchBar > nav .in_temas > .dropdownSelc > button > div {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid transparent;
+  /*tem que a mesma cor do background */
+  border-bottom: 1px solid #2D4B73;
+  border-right: 2px solid transparent;
+  /*tem que a mesma cor do background */
+  border-left: 1px solid #2D4B73;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > input,
+div.searchBar > nav .in_assoc > .dropdownSelc > input,
+div.searchBar > nav .in_temas > .dropdownSelc > input {
+  font-size: 0.8rem;
+  font-family: "OpenSansSemiBold", "Segoe UI", sans-serif;
+  color: #707277;
+  background-color: transparent;
+  padding: 0.2rem 0.1rem;
+  min-width: 100%;
+  border: none;
+  outline: none;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > input::placeholder,
+div.searchBar > nav .in_assoc > .dropdownSelc > input::placeholder,
+div.searchBar > nav .in_temas > .dropdownSelc > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 0.8rem;
+  font-family: "Open Sans Regular", "Segoe UI", sans-serif;
+  color: #b9babe;
+  color: #003c8c;
+  opacity: 1;
+  /* Firefox */
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown {
+  position: absolute;
+  display: none;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div {
+  position: absolute;
+  top: 48px;
+  min-height: 150px;
+  max-height: 150px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  overflow: scroll;
+  transition: 0.5s;
+  display: block;
+  z-index: 9999;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar {
+  width: 8px;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar-track,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar-track,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 0px;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar-thumb,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar-thumb,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div::-webkit-scrollbar-thumb {
+  background: #d6d6d6;
+  border-radius: 0px;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div {
+  padding: 8px 12px;
+  cursor: pointer;
+  display: grid;
+  color: #9d9ea2;
+  font-size: 0.8rem;
+  font-family: "OpenSansSemiBold", "Segoe UI", sans-serif;
+  color: #707277;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div:hover,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div:hover,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div:hover {
+  background-color: #2D4B73;
+  color: white;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div > .btnAdd,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div > .btnAdd,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div > .btnAdd {
+  height: min-content;
+  width: max-content;
+  padding: 4px 16px;
+  display: grid;
+  gap: 15px;
+  border: none;
+  outline: 0;
+  grid-auto-flow: column;
+  border-radius: 4px;
+  animation-fill-mode: both;
+  animation-duration: 400ms;
+  transition: 400ms ease-out;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div > .btnAdd:hover,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div > .btnAdd:hover,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div > .btnAdd:hover {
+  background-color: gainsboro;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div > .btnAdd:hover > svg,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div > .btnAdd:hover > svg,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div > .btnAdd:hover > svg {
+  fill: #003c8c;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div > .btnAdd span,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div > .btnAdd span,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div > .btnAdd span {
+  width: 100%;
+  color: #003c8c;
+  font-size: 0.8rem;
+  font-family: "OpenSansRegular", "Segoe UI", sans-serif;
+}
+div.searchBar > nav > label.in_marcador > .dropdownSelc > div.optsDropdown > div > div > .btnAdd > svg,
+div.searchBar > nav .in_assoc > .dropdownSelc > div.optsDropdown > div > div > .btnAdd > svg,
+div.searchBar > nav .in_temas > .dropdownSelc > div.optsDropdown > div > div > .btnAdd > svg {
+  fill: #003c8c;
+  height: 15px;
+}
+div.searchBar > nav > label.in_marcador > button.btnFavorito,
+div.searchBar > nav .in_assoc > button.btnFavorito,
+div.searchBar > nav .in_temas > button.btnFavorito {
+  background-color: inherit;
+  padding: 4px;
+  width: fit-content;
+  border-radius: 4px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+div.searchBar > nav > label.in_marcador > button.btnFavorito:hover,
+div.searchBar > nav .in_assoc > button.btnFavorito:hover,
+div.searchBar > nav .in_temas > button.btnFavorito:hover {
+  background-color: rgba(0, 60, 140, 0.1215686275);
+}
+div.searchBar > nav > label.in_marcador > button.btnFavorito:hover > svg,
+div.searchBar > nav .in_assoc > button.btnFavorito:hover > svg,
+div.searchBar > nav .in_temas > button.btnFavorito:hover > svg {
+  fill: tomato;
+}
+div.searchBar > nav > label.in_marcador > button.btnFavorito > svg.n,
+div.searchBar > nav .in_assoc > button.btnFavorito > svg.n,
+div.searchBar > nav .in_temas > button.btnFavorito > svg.n {
+  display: grid;
+  height: 28px;
+  fill: #003C8C;
+}
+div.searchBar > nav > label.in_marcador > button.btnFavorito > svg.s,
+div.searchBar > nav .in_assoc > button.btnFavorito > svg.s,
+div.searchBar > nav .in_temas > button.btnFavorito > svg.s {
+  display: none;
+  height: 28px;
+  fill: #003C8C;
+}
+div.searchBar > nav > button.btnPesquisar {
+  background-color: #fafafa;
+  padding: 5px 10px;
+  height: fit-content;
+  display: grid;
+  align-self: center;
+  gap: 0 5px;
+  align-items: center;
+  outline: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: #fafafa;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+}
+div.searchBar > nav > button.btnPesquisar:hover {
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > nav > button.btnPesquisar:active {
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > nav > button.btnPesquisar:focus {
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > nav > button.btnPesquisar > svg {
+  height: 14pt;
+  fill: crimson;
+  fill: #003c8c;
+}
+div.searchBar > nav > button.btnPesquisar > span {
+  width: 100%;
+  color: #003d8c;
+  font-size: 0.9rem;
+  font-family: "DosisMedium", "OpenSansSemiBold", "Segoe UI", sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+div.searchBar > nav > button.btnLimparFiltro,
+div.searchBar > nav > button.btnMaisFiltros {
+  background-color: #f0f0f0;
+  padding: 4px 7px;
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  align-items: center;
+  outline: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  white-space: nowrap;
+  align-self: center;
+  background-color: #fafafa;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+}
+div.searchBar > nav > button.btnLimparFiltro:hover,
+div.searchBar > nav > button.btnMaisFiltros:hover {
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > nav > button.btnLimparFiltro:active,
+div.searchBar > nav > button.btnMaisFiltros:active {
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > nav > button.btnLimparFiltro:focus,
+div.searchBar > nav > button.btnMaisFiltros:focus {
+  background-color: #f8f8f8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+  border: 1px solid rgba(0, 61, 140, 0.231372549);
+}
+div.searchBar > nav > button.btnLimparFiltro > svg,
+div.searchBar > nav > button.btnMaisFiltros > svg {
+  height: 12pt;
+  fill: tomato;
+}
+div.searchBar > nav > button.btnLimparFiltro > span,
+div.searchBar > nav > button.btnMaisFiltros > span {
+  width: 100%;
+  color: tomato;
+  font-size: 1.1rem;
+  font-family: "DosisMedium", "OpenSansSemiBold", "Segoe UI", sans-serif;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=div.searchBar.css.map */
