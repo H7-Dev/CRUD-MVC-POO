@@ -22,5 +22,7 @@
         </div>
     <?php endif; ?>
 
-
 <?php include 'INCLUDES/COMPONENTS/ASIDE/cp.aside.html'; ?>
+<h1>Lista de Clientes</h1>
+<a class="button" href="./index.php?a=goToNew">Novo Cliente</a>
+
