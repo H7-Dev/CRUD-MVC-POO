@@ -107,6 +107,10 @@ div.main > .tbBaralhos > main > .containerTable > table > caption > div > span:n
   font-family: DosisLight, "Segoe UI", sans-serif;
   text-align: left;
 }
+div.main > .tbBaralhos > main > .containerTable > table > thead > tr > th.thActions {
+  width: 0%;
+  text-align: center;
+}
 div.main > .tbBaralhos > main > .containerTable > table > thead > tr > th {
   color: #707277;
   color: #003c8c;
@@ -169,7 +173,7 @@ div.main > .tbBaralhos > main > .containerTable > table > tbody > tr > td.tdActi
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px;
-  text-align: center;
+  text-align: left;
 }
 div.main > .tbBaralhos > main > .containerTable > table > tbody > tr > td.tdActions > a {
   margin: 0 15px;

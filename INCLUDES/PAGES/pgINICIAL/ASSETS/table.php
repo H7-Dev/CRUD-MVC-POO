@@ -11,7 +11,7 @@
                 <table>
                   <thead>
                     <tr>
-                     <th class="thActions" style="text-align: center;">Ações</th>
+                     <th class="thActions">Ações</th>
                       <th>ID</th>
                       <th>Nome</th>
                       <th>Email</th>

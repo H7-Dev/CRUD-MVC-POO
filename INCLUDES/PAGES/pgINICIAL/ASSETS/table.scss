@@ -1,4 +1,3 @@
-
 div.main {
     background-color: rgba(0, 0, 0, 0);
     padding: 5px;
@@ -147,6 +146,12 @@ div.main {
                         // background-color:#0000; // ! mesma cor do fundo
 
                         >tr {
+
+                            >th.thActions {
+                                width: 0%;
+                                text-align: center;
+                            }
+
                             >th {
                                 color: #707277;
                                 color: #003c8c;
@@ -203,10 +208,6 @@ div.main {
                                 }
 
                             }
-
-                            >th.thActions {
-                                // display: none;
-                            }
                         }
                     }
 
@@ -232,7 +233,7 @@ div.main {
                                 overflow: hidden;
                                 text-overflow: ellipsis;
                                 max-width: 200px;
-                                text-align: center;
+                                text-align: left;
 
                                 >a {
                                     // background-color: silver;
@@ -245,6 +246,7 @@ div.main {
                                         fill: dodgerblue;
                                     }
                                 }
+
                                 >button {
                                     background-color: #0000;
                                     padding: 4px;
