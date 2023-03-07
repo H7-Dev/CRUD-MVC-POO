@@ -1,0 +1,86 @@
+aside {
+  background-color: #F9F7F3;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.1fr 1fr 0.2fr;
+  overflow: hidden;
+}
+aside > header {
+  padding: 4px;
+}
+aside > main {
+  padding: 4px;
+  display: grid;
+  gap: 15px;
+  grid-template-rows: auto auto 1fr;
+}
+aside > main > button {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 7px 7px 7px 0;
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  gap: 0 4px;
+  grid-auto-flow: column;
+  align-items: center;
+  border-radius: 4px;
+  outline: 0.5px;
+  border: none;
+  transform: scale(0.8);
+  box-shadow: 0px 1px 3px 0px rgba(0, 60, 140, 0.15);
+}
+aside > main > button:hover {
+  background-color: #EBE9E6;
+}
+aside > main > button > div.dest {
+  background-color: rgba(0, 0, 0, 0);
+  height: 90%;
+  width: 4px;
+  border-radius: 3px;
+}
+aside > main > button > svg {
+  fill: #003C8C;
+  height: 21pt;
+}
+aside > main > button > span {
+  display: none;
+}
+aside > footer {
+  padding: 4px;
+  overflow: hidden;
+}
+aside > footer > button {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 7px 7px 7px 0;
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  gap: 0 4px;
+  grid-auto-flow: column;
+  align-items: center;
+  border-radius: 4px;
+  outline: 0.5px;
+  border: none;
+  transform: scale(0.8);
+}
+aside > footer > button:hover {
+  background-color: #EBE9E6;
+}
+aside > footer > button > div.dest {
+  background-color: rgba(0, 0, 0, 0);
+  height: 90%;
+  width: 4px;
+  border-radius: 3px;
+}
+aside > footer > button > img.img {
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+}
+aside > footer > button > svg {
+  fill: #003C8C;
+  height: 21pt;
+}
+aside > footer > button > span {
+  display: none;
+}/*# sourceMappingURL=aside.css.map */
