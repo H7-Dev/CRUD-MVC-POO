@@ -1,0 +1,17 @@
+div.header {
+  background-color: #F8F8F8;
+}
+div.header > span.titulo {
+  color: #F26B6B;
+  font-size: 2.1rem;
+  font-family: DosisLight, "Segoe UI", sans-serif;
+  display: grid;
+  align-items: flex-end;
+}
+div.header > span.subtitulo {
+  color: #003C8C;
+  font-size: 1rem;
+  font-family: "JosefinSansRegular", "OpenSansSemiBold", "Segoe UI", sans-serif;
+  letter-spacing: normal;
+  font-weight: normal;
+}/*# sourceMappingURL=div.a.header.css.map */

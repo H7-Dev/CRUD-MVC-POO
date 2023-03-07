@@ -8,6 +8,8 @@
     <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="views/css/index.css">
     <link rel="stylesheet" href="INCLUDES/COMPONENTS/ASIDE/CSS/aside.css">
+    <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/div.a.header.css">
+    <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/CSS/pg.inicial.css">
     <title>Clients</title>
 </head>
 <body>
@@ -21,8 +23,8 @@
             </button>
         </div>
     <?php endif; ?>
+    <?php include 'INCLUDES/COMPONENTS/ASIDE/cp.aside.html'; ?>
 
-<?php include 'INCLUDES/COMPONENTS/ASIDE/cp.aside.html'; ?>
-<h1>Lista de Clientes</h1>
-<a class="button" href="./index.php?a=goToNew">Novo Cliente</a>
 
+<!-- <h1>Lista de Clientes</h1> -->
+<!-- <a class="button" href="./index.php?a=goToNew">Novo Cliente</a> -->

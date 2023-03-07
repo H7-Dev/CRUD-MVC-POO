@@ -1,0 +1,7 @@
+.pgInicial {
+  background-color: #f0f0f0;
+  min-height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}/*# sourceMappingURL=pg.inicial.css.map */
