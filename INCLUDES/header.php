@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/CSS/pg.inicial.css">
     <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/div.a.header.css">
     <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/div.searchBar.css">
+    <link rel="stylesheet" href="INCLUDES/PAGES/pgInicial/ASSETS/table.css">
 
 
     <title>Clients</title>
